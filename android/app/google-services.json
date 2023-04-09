@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "236092483005",
+    "project_id": "bitirme-projesi-flutter",
+    "storage_bucket": "bitirme-projesi-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236092483005:android:69c25fdedd1ce19c8f5ed4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_bitirme_proje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236092483005-mh9nilotaaf316fsq02rddrqu8gvecie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNUa53EfVU2eIQHF3qHjYps0eg1Ny2FNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236092483005-mh9nilotaaf316fsq02rddrqu8gvecie.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236092483005-mev4hihd2f98rc4k4umhtqs5l8ehfnu8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterBitirmeProje"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
