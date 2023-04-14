@@ -15,7 +15,33 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Mesajlaşma UYgulaması",
-      home: Temel(),
+      home: Login(),
+    );
+  }
+}
+
+class Login extends StatelessWidget {
+  const Login({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Login")),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            TextField(),
+            TextField(),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: ((context) => Temel())));
+                },
+                child: Text("Login"))
+          ],
+        ),
+      ),
     );
   }
 }
